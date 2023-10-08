@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\AASHISH RATHORE\workspace\InterestAmountCalculator\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.CarEMICalculator" class="method navigator-link" hash-for-method="printResultOnConsole">printResultOnConsole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Tenure_UI_Check" class="method navigator-link" hash-for-method="emiUICheck">emiUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Amount_UI_Check" class="method navigator-link" hash-for-method="emiUICheck">emiUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Amount_UI_Check" class="method navigator-link" hash-for-method="feeChargeUICheck">feeChargeUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Tenure_UI_Check" class="method navigator-link" hash-for-method="feeChargeUICheck">feeChargeUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_EMI_UI_Check" class="method navigator-link" hash-for-method="feeChargeUICheck">feeChargeUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.CarEMICalculator" class="method navigator-link" hash-for-method="fillData">fillData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomeLoanEMICalculator" class="method navigator-link" hash-for-method="fillRelevantData">fillRelevantData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Amount_UI_Check" class="method navigator-link" hash-for-method="interestRateUICheck">interestRateUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_EMI_UI_Check" class="method navigator-link" hash-for-method="interestRateUICheck">interestRateUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Tenure_UI_Check" class="method navigator-link" hash-for-method="interestRateUICheck">interestRateUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_EMI_UI_Check" class="method navigator-link" hash-for-method="loanAmountUICheck">loanAmountUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Tenure_UI_Check" class="method navigator-link" hash-for-method="loanAmountUICheck">loanAmountUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_EMI_UI_Check" class="method navigator-link" hash-for-method="loanTermUICheck">loanTermUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Amount_UI_Check" class="method navigator-link" hash-for-method="loantermUICheck">loantermUICheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Amount_UI_Check" class="method navigator-link" hash-for-method="navigateToAmountCalculator">navigateToAmountCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.CarEMICalculator" class="method navigator-link" hash-for-method="navigateToCarEMI">navigateToCarEMI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_EMI_UI_Check" class="method navigator-link" hash-for-method="navigateToEMICalculator">navigateToEMICalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomeLoanEMICalculator" class="method navigator-link" hash-for-method="navigateToHomeLoan">navigateToHomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoanCalculator_Tenure_UI_Check" class="method navigator-link" hash-for-method="navigateToTenureCalculator">navigateToTenureCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomeLoanEMICalculator" class="method navigator-link" hash-for-method="storeData">storeData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testClasses.CarEMICalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printResultOnConsole">
+                  </a> <!-- printResultOnConsole -->
+                  <span class="method-name">printResultOnConsole</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#year2022&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fd827fc2ddd0508911c34935f284de3, findElement {using=id, value=year2022}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61124/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fd827fc2ddd0508911c34935f284de3
+	at baseClasses.BaseClass.reportFail(BaseClass.java:123)
+	at baseClasses.BaseClass.findByKey(BaseClass.java:111)
+	at pageClasses.HomePage.getdata(HomePage.java:91)
+	at testClasses.CarEMICalculator.printResultOnConsole(CarEMICalculator.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.LoanCalculator_EMI_UI_Check</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feeChargeUICheck">
+                  </a> <!-- feeChargeUICheck -->
+                  <span class="method-name">feeChargeUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="interestRateUICheck">
+                  </a> <!-- interestRateUICheck -->
+                  <span class="method-name">interestRateUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loanAmountUICheck">
+                  </a> <!-- loanAmountUICheck -->
+                  <span class="method-name">loanAmountUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loanTermUICheck">
+                  </a> <!-- loanTermUICheck -->
+                  <span class="method-name">loanTermUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToEMICalculator">
+                  </a> <!-- navigateToEMICalculator -->
+                  <span class="method-name">navigateToEMICalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.CarEMICalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillData">
+                  </a> <!-- fillData -->
+                  <span class="method-name">fillData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToCarEMI">
+                  </a> <!-- navigateToCarEMI -->
+                  <span class="method-name">navigateToCarEMI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.LoanCalculator_Amount_UI_Check</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emiUICheck">
+                  </a> <!-- emiUICheck -->
+                  <span class="method-name">emiUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feeChargeUICheck">
+                  </a> <!-- feeChargeUICheck -->
+                  <span class="method-name">feeChargeUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="interestRateUICheck">
+                  </a> <!-- interestRateUICheck -->
+                  <span class="method-name">interestRateUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loantermUICheck">
+                  </a> <!-- loantermUICheck -->
+                  <span class="method-name">loantermUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToAmountCalculator">
+                  </a> <!-- navigateToAmountCalculator -->
+                  <span class="method-name">navigateToAmountCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.HomeLoanEMICalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillRelevantData">
+                  </a> <!-- fillRelevantData -->
+                  <span class="method-name">fillRelevantData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHomeLoan">
+                  </a> <!-- navigateToHomeLoan -->
+                  <span class="method-name">navigateToHomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storeData">
+                  </a> <!-- storeData -->
+                  <span class="method-name">storeData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.LoanCalculator_Tenure_UI_Check</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emiUICheck">
+                  </a> <!-- emiUICheck -->
+                  <span class="method-name">emiUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feeChargeUICheck">
+                  </a> <!-- feeChargeUICheck -->
+                  <span class="method-name">feeChargeUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="interestRateUICheck">
+                  </a> <!-- interestRateUICheck -->
+                  <span class="method-name">interestRateUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loanAmountUICheck">
+                  </a> <!-- loanAmountUICheck -->
+                  <span class="method-name">loanAmountUICheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToTenureCalculator">
+                  </a> <!-- navigateToTenureCalculator -->
+                  <span class="method-name">navigateToTenureCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\AASHISH RATHORE\workspace\InterestAmountCalculator\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClasses.CarEMICalculator&quot;/&gt;
+      &lt;class name=&quot;testClasses.HomeLoanEMICalculator&quot;/&gt;
+      &lt;class name=&quot;testClasses.LoanCalculator_EMI_UI_Check&quot;/&gt;
+      &lt;class name=&quot;testClasses.LoanCalculator_Amount_UI_Check&quot;/&gt;
+      &lt;class name=&quot;testClasses.LoanCalculator_Tenure_UI_Check&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">emiUICheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">feeChargeUICheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">fillData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">fillRelevantData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">interestRateUICheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loanAmountUICheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loanTermUICheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loantermUICheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">printResultOnConsole</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">storeData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToAmountCalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToCarEMI</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToEMICalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToHomeLoan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToTenureCalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'printResultOnConsole')
+data.setCell(0, 2, 'testClasses.CarEMICalculator')
+data.setCell(0, 3, 15198);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'storeData')
+data.setCell(1, 2, 'testClasses.HomeLoanEMICalculator')
+data.setCell(1, 3, 6053);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillRelevantData')
+data.setCell(2, 2, 'testClasses.HomeLoanEMICalculator')
+data.setCell(2, 3, 5232);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigateToHomeLoan')
+data.setCell(3, 2, 'testClasses.HomeLoanEMICalculator')
+data.setCell(3, 3, 3778);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateToAmountCalculator')
+data.setCell(4, 2, 'testClasses.LoanCalculator_Amount_UI_Check')
+data.setCell(4, 3, 2874);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateToTenureCalculator')
+data.setCell(5, 2, 'testClasses.LoanCalculator_Tenure_UI_Check')
+data.setCell(5, 3, 2756);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'navigateToEMICalculator')
+data.setCell(6, 2, 'testClasses.LoanCalculator_EMI_UI_Check')
+data.setCell(6, 3, 2526);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'feeChargeUICheck')
+data.setCell(7, 2, 'testClasses.LoanCalculator_EMI_UI_Check')
+data.setCell(7, 3, 2214);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'feeChargeUICheck')
+data.setCell(8, 2, 'testClasses.LoanCalculator_Amount_UI_Check')
+data.setCell(8, 3, 2194);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'fillData')
+data.setCell(9, 2, 'testClasses.CarEMICalculator')
+data.setCell(9, 3, 1564);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loanTermUICheck')
+data.setCell(10, 2, 'testClasses.LoanCalculator_EMI_UI_Check')
+data.setCell(10, 3, 1373);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loantermUICheck')
+data.setCell(11, 2, 'testClasses.LoanCalculator_Amount_UI_Check')
+data.setCell(11, 3, 1324);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loanAmountUICheck')
+data.setCell(12, 2, 'testClasses.LoanCalculator_EMI_UI_Check')
+data.setCell(12, 3, 1185);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loanAmountUICheck')
+data.setCell(13, 2, 'testClasses.LoanCalculator_Tenure_UI_Check')
+data.setCell(13, 3, 1151);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'interestRateUICheck')
+data.setCell(14, 2, 'testClasses.LoanCalculator_EMI_UI_Check')
+data.setCell(14, 3, 1085);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'interestRateUICheck')
+data.setCell(15, 2, 'testClasses.LoanCalculator_Tenure_UI_Check')
+data.setCell(15, 3, 1082);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'emiUICheck')
+data.setCell(16, 2, 'testClasses.LoanCalculator_Tenure_UI_Check')
+data.setCell(16, 3, 1059);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'emiUICheck')
+data.setCell(17, 2, 'testClasses.LoanCalculator_Amount_UI_Check')
+data.setCell(17, 3, 1019);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'feeChargeUICheck')
+data.setCell(18, 2, 'testClasses.LoanCalculator_Tenure_UI_Check')
+data.setCell(18, 3, 993);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'interestRateUICheck')
+data.setCell(19, 2, 'testClasses.LoanCalculator_Amount_UI_Check')
+data.setCell(19, 3, 932);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'navigateToCarEMI')
+data.setCell(20, 2, 'testClasses.CarEMICalculator')
+data.setCell(20, 3, 593);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.LoanCalculator_EMI_UI_Check</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.LoanCalculator_Amount_UI_Check</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.HomeLoanEMICalculator</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.LoanCalculator_Tenure_UI_Check</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.CarEMICalculator</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToCarEMI</span>
+                <span class="method-start">9263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillData</span>
+                <span class="method-start">9867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printResultOnConsole</span>
+                <span class="method-start">11431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26675 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomeLoanEMICalculator</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28349 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToHomeLoan</span>
+                <span class="method-start">34306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillRelevantData</span>
+                <span class="method-start">38087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storeData</span>
+                <span class="method-start">43319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49387 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoanCalculator_EMI_UI_Check</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50501 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToEMICalculator</span>
+                <span class="method-start">55534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loanAmountUICheck</span>
+                <span class="method-start">58076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">interestRateUICheck</span>
+                <span class="method-start">59261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loanTermUICheck</span>
+                <span class="method-start">60346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feeChargeUICheck</span>
+                <span class="method-start">61719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63933 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoanCalculator_Amount_UI_Check</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64660 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToAmountCalculator</span>
+                <span class="method-start">69598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emiUICheck</span>
+                <span class="method-start">72488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">interestRateUICheck</span>
+                <span class="method-start">73507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loantermUICheck</span>
+                <span class="method-start">74439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feeChargeUICheck</span>
+                <span class="method-start">75763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77965 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoanCalculator_Tenure_UI_Check</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78608 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToTenureCalculator</span>
+                <span class="method-start">83489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loanAmountUICheck</span>
+                <span class="method-start">86245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">interestRateUICheck</span>
+                <span class="method-start">87396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emiUICheck</span>
+                <span class="method-start">88478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feeChargeUICheck</span>
+                <span class="method-start">89537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90530 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

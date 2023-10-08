@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="25" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T23:35:48 IST" name="Suite" finished-at="2023-10-07T23:37:20 IST" duration-ms="91225">
+    <groups>
+      <group name="Regression Test">
+        <method signature="CarEMICalculator.fillData()[pri:1, instance:testClasses.CarEMICalculator@3e0e1046]" name="fillData" class="testClasses.CarEMICalculator"/>
+        <method signature="CarEMICalculator.printResultOnConsole()[pri:2, instance:testClasses.CarEMICalculator@3e0e1046]" name="printResultOnConsole" class="testClasses.CarEMICalculator"/>
+        <method signature="HomeLoanEMICalculator.fillRelevantData()[pri:4, instance:testClasses.HomeLoanEMICalculator@23941fb4]" name="fillRelevantData" class="testClasses.HomeLoanEMICalculator"/>
+        <method signature="HomeLoanEMICalculator.storeData()[pri:5, instance:testClasses.HomeLoanEMICalculator@23941fb4]" name="storeData" class="testClasses.HomeLoanEMICalculator"/>
+        <method signature="LoanCalculator_Amount_UI_Check.emiUICheck()[pri:12, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" name="emiUICheck" class="testClasses.LoanCalculator_Amount_UI_Check"/>
+        <method signature="LoanCalculator_Amount_UI_Check.feeChargeUICheck()[pri:15, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" name="feeChargeUICheck" class="testClasses.LoanCalculator_Amount_UI_Check"/>
+        <method signature="LoanCalculator_Amount_UI_Check.interestRateUICheck()[pri:13, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" name="interestRateUICheck" class="testClasses.LoanCalculator_Amount_UI_Check"/>
+        <method signature="LoanCalculator_Amount_UI_Check.loantermUICheck()[pri:14, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" name="loantermUICheck" class="testClasses.LoanCalculator_Amount_UI_Check"/>
+        <method signature="LoanCalculator_EMI_UI_Check.feeChargeUICheck()[pri:10, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" name="feeChargeUICheck" class="testClasses.LoanCalculator_EMI_UI_Check"/>
+        <method signature="LoanCalculator_EMI_UI_Check.interestRateUICheck()[pri:8, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" name="interestRateUICheck" class="testClasses.LoanCalculator_EMI_UI_Check"/>
+        <method signature="LoanCalculator_EMI_UI_Check.loanAmountUICheck()[pri:7, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" name="loanAmountUICheck" class="testClasses.LoanCalculator_EMI_UI_Check"/>
+        <method signature="LoanCalculator_EMI_UI_Check.loanTermUICheck()[pri:9, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" name="loanTermUICheck" class="testClasses.LoanCalculator_EMI_UI_Check"/>
+        <method signature="LoanCalculator_Tenure_UI_Check.emiUICheck()[pri:19, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" name="emiUICheck" class="testClasses.LoanCalculator_Tenure_UI_Check"/>
+        <method signature="LoanCalculator_Tenure_UI_Check.feeChargeUICheck()[pri:20, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" name="feeChargeUICheck" class="testClasses.LoanCalculator_Tenure_UI_Check"/>
+        <method signature="LoanCalculator_Tenure_UI_Check.interestRateUICheck()[pri:18, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" name="interestRateUICheck" class="testClasses.LoanCalculator_Tenure_UI_Check"/>
+        <method signature="LoanCalculator_Tenure_UI_Check.loanAmountUICheck()[pri:17, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" name="loanAmountUICheck" class="testClasses.LoanCalculator_Tenure_UI_Check"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="CarEMICalculator.navigateToCarEMI()[pri:0, instance:testClasses.CarEMICalculator@3e0e1046]" name="navigateToCarEMI" class="testClasses.CarEMICalculator"/>
+        <method signature="HomeLoanEMICalculator.navigateToHomeLoan()[pri:3, instance:testClasses.HomeLoanEMICalculator@23941fb4]" name="navigateToHomeLoan" class="testClasses.HomeLoanEMICalculator"/>
+        <method signature="LoanCalculator_Amount_UI_Check.navigateToAmountCalculator()[pri:11, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" name="navigateToAmountCalculator" class="testClasses.LoanCalculator_Amount_UI_Check"/>
+        <method signature="LoanCalculator_EMI_UI_Check.navigateToEMICalculator()[pri:6, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" name="navigateToEMICalculator" class="testClasses.LoanCalculator_EMI_UI_Check"/>
+        <method signature="LoanCalculator_Tenure_UI_Check.navigateToTenureCalculator()[pri:16, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" name="navigateToTenureCalculator" class="testClasses.LoanCalculator_Tenure_UI_Check"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2023-10-07T23:35:48 IST" name="Test" finished-at="2023-10-07T23:37:20 IST" duration-ms="91225">
+      <class name="testClasses.LoanCalculator_EMI_UI_Check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:39 IST" name="setUp" finished-at="2023-10-07T23:36:44 IST" duration-ms="5033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToEMICalculator()[pri:6, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:44 IST" name="navigateToEMICalculator" finished-at="2023-10-07T23:36:47 IST" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToEMICalculator -->
+        <test-method signature="loanAmountUICheck()[pri:7, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:47 IST" name="loanAmountUICheck" finished-at="2023-10-07T23:36:48 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountUICheck -->
+        <test-method signature="interestRateUICheck()[pri:8, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:48 IST" name="interestRateUICheck" finished-at="2023-10-07T23:36:49 IST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateUICheck -->
+        <test-method signature="loanTermUICheck()[pri:9, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:49 IST" name="loanTermUICheck" finished-at="2023-10-07T23:36:50 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTermUICheck -->
+        <test-method signature="feeChargeUICheck()[pri:10, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:50 IST" name="feeChargeUICheck" finished-at="2023-10-07T23:36:52 IST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feeChargeUICheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.LoanCalculator_EMI_UI_Check@5d908d47]" started-at="2023-10-07T23:36:52 IST" name="tearDown" finished-at="2023-10-07T23:36:53 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.LoanCalculator_EMI_UI_Check -->
+      <class name="testClasses.HomeLoanEMICalculator">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.HomeLoanEMICalculator@23941fb4]" started-at="2023-10-07T23:36:17 IST" name="setUp" finished-at="2023-10-07T23:36:23 IST" duration-ms="5956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToHomeLoan()[pri:3, instance:testClasses.HomeLoanEMICalculator@23941fb4]" started-at="2023-10-07T23:36:23 IST" name="navigateToHomeLoan" finished-at="2023-10-07T23:36:27 IST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomeLoan -->
+        <test-method signature="fillRelevantData()[pri:4, instance:testClasses.HomeLoanEMICalculator@23941fb4]" started-at="2023-10-07T23:36:27 IST" name="fillRelevantData" finished-at="2023-10-07T23:36:32 IST" duration-ms="5232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRelevantData -->
+        <test-method signature="storeData()[pri:5, instance:testClasses.HomeLoanEMICalculator@23941fb4]" started-at="2023-10-07T23:36:32 IST" name="storeData" finished-at="2023-10-07T23:36:38 IST" duration-ms="6053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.HomeLoanEMICalculator@23941fb4]" started-at="2023-10-07T23:36:38 IST" name="tearDown" finished-at="2023-10-07T23:36:39 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.HomeLoanEMICalculator -->
+      <class name="testClasses.LoanCalculator_Amount_UI_Check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:36:53 IST" name="setUp" finished-at="2023-10-07T23:36:58 IST" duration-ms="4938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToAmountCalculator()[pri:11, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:36:58 IST" name="navigateToAmountCalculator" finished-at="2023-10-07T23:37:01 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAmountCalculator -->
+        <test-method signature="emiUICheck()[pri:12, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:37:01 IST" name="emiUICheck" finished-at="2023-10-07T23:37:02 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiUICheck -->
+        <test-method signature="interestRateUICheck()[pri:13, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:37:02 IST" name="interestRateUICheck" finished-at="2023-10-07T23:37:03 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateUICheck -->
+        <test-method signature="loantermUICheck()[pri:14, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:37:03 IST" name="loantermUICheck" finished-at="2023-10-07T23:37:04 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loantermUICheck -->
+        <test-method signature="feeChargeUICheck()[pri:15, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:37:04 IST" name="feeChargeUICheck" finished-at="2023-10-07T23:37:06 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feeChargeUICheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.LoanCalculator_Amount_UI_Check@5efa40fe]" started-at="2023-10-07T23:37:06 IST" name="tearDown" finished-at="2023-10-07T23:37:07 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.LoanCalculator_Amount_UI_Check -->
+      <class name="testClasses.LoanCalculator_Tenure_UI_Check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:07 IST" name="setUp" finished-at="2023-10-07T23:37:12 IST" duration-ms="4881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToTenureCalculator()[pri:16, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:12 IST" name="navigateToTenureCalculator" finished-at="2023-10-07T23:37:15 IST" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTenureCalculator -->
+        <test-method signature="loanAmountUICheck()[pri:17, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:15 IST" name="loanAmountUICheck" finished-at="2023-10-07T23:37:16 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountUICheck -->
+        <test-method signature="interestRateUICheck()[pri:18, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:16 IST" name="interestRateUICheck" finished-at="2023-10-07T23:37:17 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateUICheck -->
+        <test-method signature="emiUICheck()[pri:19, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:17 IST" name="emiUICheck" finished-at="2023-10-07T23:37:18 IST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiUICheck -->
+        <test-method signature="feeChargeUICheck()[pri:20, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:18 IST" name="feeChargeUICheck" finished-at="2023-10-07T23:37:19 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feeChargeUICheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.LoanCalculator_Tenure_UI_Check@1f9f6368]" started-at="2023-10-07T23:37:19 IST" name="tearDown" finished-at="2023-10-07T23:37:20 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.LoanCalculator_Tenure_UI_Check -->
+      <class name="testClasses.CarEMICalculator">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testClasses.CarEMICalculator@3e0e1046]" started-at="2023-10-07T23:35:48 IST" name="loadConfig" finished-at="2023-10-07T23:35:48 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.CarEMICalculator@3e0e1046]" started-at="2023-10-07T23:35:48 IST" name="setUp" finished-at="2023-10-07T23:35:58 IST" duration-ms="9198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToCarEMI()[pri:0, instance:testClasses.CarEMICalculator@3e0e1046]" started-at="2023-10-07T23:35:58 IST" name="navigateToCarEMI" finished-at="2023-10-07T23:35:58 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCarEMI -->
+        <test-method signature="fillData()[pri:1, instance:testClasses.CarEMICalculator@3e0e1046]" started-at="2023-10-07T23:35:58 IST" name="fillData" finished-at="2023-10-07T23:36:00 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillData -->
+        <test-method signature="printResultOnConsole()[pri:2, instance:testClasses.CarEMICalculator@3e0e1046]" started-at="2023-10-07T23:36:00 IST" name="printResultOnConsole" finished-at="2023-10-07T23:36:15 IST" duration-ms="15198" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#year2022"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fd827fc2ddd0508911c34935f284de3, findElement {using=id, value=year2022}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61124/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fd827fc2ddd0508911c34935f284de3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"css selector","selector":"#year2022"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fd827fc2ddd0508911c34935f284de3, findElement {using=id, value=year2022}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61124/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fd827fc2ddd0508911c34935f284de3
+at org.testng.Assert.fail(Assert.java:99)
+at baseClasses.BaseClass.reportFail(BaseClass.java:123)
+at baseClasses.BaseClass.findByKey(BaseClass.java:111)
+at pageClasses.HomePage.getdata(HomePage.java:91)
+at testClasses.CarEMICalculator.printResultOnConsole(CarEMICalculator.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResultOnConsole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.CarEMICalculator@3e0e1046]" started-at="2023-10-07T23:36:15 IST" name="tearDown" finished-at="2023-10-07T23:36:17 IST" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.CarEMICalculator -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
