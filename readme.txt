@@ -37,113 +37,55 @@ Steps to execute:
 
 Output on console:
 		
-	[RemoteTestNG] detected TestNG version 7.4.0
-	Opening edge browser...
-	Starting MSEdgeDriver 99.0.1150.39 (83e7eb830583bb2e45c92fa97398f3704f87af0d) on port 57836
-	Only local connections are allowed.
-	Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
-	MSEdgeDriver was started successfully.
-	Mar 17, 2022 7:45:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-	INFO: Detected dialect: W3C
-	Mar 17, 2022 7:45:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 96
-	Mar 17, 2022 7:45:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	INFO: Found CDP implementation for version 99 of 96
-	
-	The Principal Amount for One Month is:Rs. 1,21,040
-	The Interest Amount for One Month is:Rs. 8,750
-	
-	Opening edge browser...
-	Starting MSEdgeDriver 99.0.1150.39 (83e7eb830583bb2e45c92fa97398f3704f87af0d) on port 53189
-	Only local connections are allowed.
-	Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
-	MSEdgeDriver was started successfully.
-	Mar 17, 2022 7:45:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-	INFO: Detected dialect: W3C
-	Mar 17, 2022 7:45:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 96
-	Mar 17, 2022 7:45:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	INFO: Found CDP implementation for version 99 of 96
-	Opening edge browser...
-	Starting MSEdgeDriver 99.0.1150.39 (83e7eb830583bb2e45c92fa97398f3704f87af0d) on port 60519
-	Only local connections are allowed.
-	Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
-	MSEdgeDriver was started successfully.
-	Mar 17, 2022 7:46:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-	INFO: Detected dialect: W3C
-	Mar 17, 2022 7:46:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 96
-	Mar 17, 2022 7:46:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	INFO: Found CDP implementation for version 99 of 96
-	
-	Loan Amount Slider is Visible
-	Loan Amount Slider is Checked
-	Loan Amount Text Box is Visible
-	Interest Rate Slider is Visible
-	Interest Rate Slider is Checked
-	Interest Rate Text Box is Visible
-	Loan Tenure Slider is Visible
-	Loan Tenure Slider is Checked
-	Loan Tenure Text Box is Visible
-	Loan Tenure Toggle Button is Checked
-	Fees & Charges Slider is Visible
-	Fees & Charges Text Box is Visible
-	Loan Fees Slider is Checked
-	
-	Opening edge browser...
-	Starting MSEdgeDriver 99.0.1150.39 (83e7eb830583bb2e45c92fa97398f3704f87af0d) on port 53677
-	Only local connections are allowed.
-	Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
-	MSEdgeDriver was started successfully.
-	Mar 17, 2022 7:46:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-	INFO: Detected dialect: W3C
-	Mar 17, 2022 7:46:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 96
-	Mar 17, 2022 7:46:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	INFO: Found CDP implementation for version 99 of 96
-	
-	Loan EMI Slider is Visible
-	Loan EMI Slider is Checked
-	EMI Text Box is Visible
-	Interest Rate Slider is Visible
-	Interest Rate Slider is Checked
-	Interest Rate Text Box is Visible
-	Loan Tenure Slider is Visible
-	Loan Tenure Slider is Checked
-	Loan Tenure Text Box is Visible
-	Loan Tenure Toggle Button is Checked
-	Fees & Charges Slider is Visible
-	Fees & Charges Text Box is Visible
-	Loan Fees Slider is Checked
-	
-	Opening edge browser...
-	Starting MSEdgeDriver 99.0.1150.39 (83e7eb830583bb2e45c92fa97398f3704f87af0d) on port 58847
-	Only local connections are allowed.
-	Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
-	MSEdgeDriver was started successfully.
-	Mar 17, 2022 7:46:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-	INFO: Detected dialect: W3C
-	Mar 17, 2022 7:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 96
-	Mar 17, 2022 7:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-	INFO: Found CDP implementation for version 99 of 96
-	
-	Loan Amount Slider is Visible
-	Loan Amount Slider is Checked
-	Loan Amount Text Box is Visible
-	Interest Rate Slider is Visible
-	Interest Rate Slider is Checked
-	Interest Rate Text Box is Visible
-	Loan EMI Slider is Visible
-	Loan EMI Slider is Checked
-	EMI Text Box is Visible
-	Fees & Charges Slider is Visible
-	Fees & Charges Text Box is Visible
-	Loan Fees Slider is Checked
-	
-	===============================================
-	Suite
-	Total tests run: 21, Passes: 21, Failures: 0, Skips: 0
-	===============================================
-	
-		
+	Opening chrome browser...
+    The Principal Amount for One Month is:Rs. 1,19,650
+    The Interest Amount for One Month is:Rs. 11,875
+    Opening chrome browser...
+    Loan Amount Slider is Visible
+    Loan Amount Slider is Checked
+    Loan Amount Text Box is Visible
+    Interest Rate Slider is Visible
+    Interest Rate Slider is Checked
+    Interest Rate Text Box is Visible
+    Loan Tenure Slider is Visible
+    Loan Tenure Slider is Checked
+    Loan Tenure Text Box is Visible
+    Loan Tenure Toggle Button is Checked
+    Fees & Charges Slider is Visible
+    Fees & Charges Text Box is Visible
+    Loan Fees Slider is Checked
+    Opening chrome browser...
+    Loan EMI Slider is Visible
+    Loan EMI Slider is Checked
+    EMI Text Box is Visible
+    Interest Rate Slider is Visible
+    Interest Rate Slider is Checked
+    Interest Rate Text Box is Visible
+    Loan Tenure Slider is Visible
+    Loan Tenure Slider is Checked
+    Loan Tenure Text Box is Visible
+    Loan Tenure Toggle Button is Checked
+    Fees & Charges Slider is Visible
+    Fees & Charges Text Box is Visible
+    Loan Fees Slider is Checked
+    Opening chrome browser...
+    Loan Amount Slider is Visible
+    Loan Amount Slider is Checked
+    Loan Amount Text Box is Visible
+    Interest Rate Slider is Visible
+    Interest Rate Slider is Checked
+    Interest Rate Text Box is Visible
+    Loan EMI Slider is Visible
+    Loan EMI Slider is Checked
+    EMI Text Box is Visible
+    Fees & Charges Slider is Visible
+    Fees & Charges Text Box is Visible
+    Loan Fees Slider is Checked
+
+    ===============================================
+    Suite
+    Total tests run: 21, Passes: 21, Failures: 0, Skips: 0
+    ===============================================
+
+
+    Process finished with exit code 0
